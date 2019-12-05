@@ -50,5 +50,3 @@ fields:
   label: profile picture
   description: Enter profile pic image for blog post here
   default: "/content/images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg"
-pages:
-- content/data/info.json
