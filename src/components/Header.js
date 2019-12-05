@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import headerStyles from "../styles/components/header.module.scss"
+import { Image } from 'semantic-ui-react'
 
 export default function Header(props) {
   return (
@@ -15,6 +16,13 @@ export default function Header(props) {
       >
         <Link to="/">
           <h1>{props.title}</h1>
+          <Image
+            circular
+            size="small"
+            src={
+              props.image.publicURL
+            }
+          />
         </Link>
         <div>
           <h1>

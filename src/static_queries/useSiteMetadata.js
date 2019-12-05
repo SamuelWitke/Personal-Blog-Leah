@@ -1,6 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby"
 
 export default function useSiteMetadata() {
+
   const data = useStaticQuery(graphql`
     query getMetadata {
       site {
@@ -14,6 +15,7 @@ export default function useSiteMetadata() {
               github_handle
               twitter_handle
             }
+            profile_picture
             cta
             description
             background_color
@@ -22,5 +24,6 @@ export default function useSiteMetadata() {
       }
     }
   `)
+  
   return data.site.siteMetadata
 }
