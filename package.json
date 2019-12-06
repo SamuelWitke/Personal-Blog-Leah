@@ -4,7 +4,7 @@
   "description": "A simple starter blog to get up and developing quickly with Forestry & Gatsby",
   "license": "MIT",
   "version": "0.1.0",
-  "author": "kendall strautman",
+  "author": "Samuel Witke",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop -o",
