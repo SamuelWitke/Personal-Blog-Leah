@@ -9,7 +9,7 @@
   padding: 1.5rem 2.25rem;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-content: flex-start;
   flex-direction: row;
   img {
     margin-bottom: 0;
@@ -30,6 +30,7 @@
     border-right: 1px solid #EBEBEB;
     border-bottom: none;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-start;
     img {
       margin-bottom: 0;
