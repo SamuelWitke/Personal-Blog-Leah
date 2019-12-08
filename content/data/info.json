@@ -2,9 +2,9 @@
   "description": "<p>Some info about me</p>",
   "cta": "<p>Beep beep call me</p>",
   "contact": {
-    "email": "info@forestry.io",
-    "twitter_handle": "forestryio",
-    "github_handle": "forestryio"
+    "email": "someemail",
+    "twitter_handle": "some twitter",
+    "github_handle": "some bars"
   },
   "background_color": "#4A4A4A",
   "profile_picture": "/content/images/LeahProfile.jpg"
