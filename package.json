@@ -5,6 +5,9 @@
   "license": "MIT",
   "version": "0.1.0",
   "author": "Samuel Witke",
+  "engines": {
+    "node": "12.13.1"
+  },
   "scripts": {
     "heroku-prebuild": "gatsby build", 
     "build": "gatsby build",
