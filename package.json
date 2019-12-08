@@ -6,6 +6,7 @@
   "version": "0.1.0",
   "author": "Samuel Witke",
   "scripts": {
+    "heroku-prebuild": "gatsby build", 
     "build": "gatsby build",
     "dev": "gatsby develop -o",
     "start": "gatsby serve",
