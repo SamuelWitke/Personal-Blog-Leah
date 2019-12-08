@@ -9,7 +9,6 @@
     "node": "12.13.1"
   },
   "scripts": {
-    "heroku-prebuild": "gatsby build",
     "build": "gatsby build",
     "dev": "gatsby develop -o",
     "start": "gatsby serve",
